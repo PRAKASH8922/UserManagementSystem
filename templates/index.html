@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+</head>
+<body>
+    <h1 id="formTitle">Welcome to dashboard</h1>
+    <form action="#" class="frm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter the name">
+
+        <label for="phone">Ph-no :</label>
+        <input type="tel" id="phone" placeholder="Enter the number">
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="Enter the email">
+
+        <label for="password">Pass :</label>
+        <input type="password" id="password" placeholder="Enter the Pass"/>
+        
+        <button type="submit" id="btn">Save</button>
+    </form>
+    <table id="userTable">
+        <tr>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Ph-no</th>
+            <th>Email</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </table>
+    <button onclick="logout()" id="bt_logout">Logout</button>
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
