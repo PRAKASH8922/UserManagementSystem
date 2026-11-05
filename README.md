@@ -1,3 +1,10 @@
+## 🌐 Live Demo
+
+**Available at your primary URL:**
+
+https://usermanagementsystem-zxl5.onrender.com
+
+
 # User Management System (Django + MySQL)
 
 A fullstack User Management System developed using **Python, Django, HTML, CSS, JavaScript, and MySQL**, converted faithfully from the original reference architecture.
