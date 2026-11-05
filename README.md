@@ -2,8 +2,6 @@
 
 A fullstack User Management System developed using **Python, Django, HTML, CSS, JavaScript, and MySQL**, converted faithfully from the original reference architecture.
 
----
-
 ## Features
 
 - **User Registration (`/signup.html`)**:
@@ -31,7 +29,6 @@ A fullstack User Management System developed using **Python, Django, HTML, CSS, 
   - Passwords are never returned in plain text or in API responses.
   - Database credentials are kept strictly in environment variables (`.env`).
 
----
 
 ## Tech Stack
 
@@ -40,7 +37,6 @@ A fullstack User Management System developed using **Python, Django, HTML, CSS, 
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript, Boxicons CDN
 - **Configuration**: `python-dotenv` for environment management
 
----
 
 ## Project Structure
 
@@ -80,14 +76,10 @@ UserManagementSystem/
         └── script.js             # Client-side workflows and API integration
 ```
 
----
-
 ## Prerequisites
 
 1. **Python 3.10+** (Tested with Python 3.14)
 2. **MySQL Server 8.0+** running locally (e.g. `MySQL80` service on Windows)
-
----
 
 ## Installation & Setup
 
@@ -133,8 +125,6 @@ Apply the initial migration to create the `ct_user_details` table:
 python manage.py migrate
 ```
 
----
-
 ## Running the Application
 
 Start the Django development server:
@@ -147,8 +137,6 @@ Open your browser and navigate to:
 - **Login**: `http://127.0.0.1:8000/login.html`
 - **Signup**: `http://127.0.0.1:8000/signup.html`
 
----
-
 ## Running Tests
 
 Execute the automated test suite:
@@ -156,8 +144,6 @@ Execute the automated test suite:
 python manage.py test
 ```
 All tests verify endpoints, status codes, password hashing, and user authentication workflows.
-
----
 
 ## API Endpoints
 
